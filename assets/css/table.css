@@ -1,0 +1,52 @@
+.img img{
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+}
+
+.table-wrapper{
+    border-radius: .7rem !important;
+}
+
+.table{
+    background-color: #fff !important;
+}
+
+.table td{
+    font-weight: 600;
+    color: #555;
+}
+
+.status span{
+    background: #5ABA81;
+    border-radius: 1rem;
+    padding: .2rem .7rem;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+    .table td{
+        font-size: 11px;
+    }
+
+    .table th{
+        font-size: 14px;
+    }
+
+    .status span{
+        font-size: 10px;
+        padding: .2rem .5rem;
+    }
+
+    .img img{
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+.navbar .navbar-nav li > a {
+    font-size: 18px !important;
+}
+
+}
